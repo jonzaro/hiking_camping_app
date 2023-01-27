@@ -1,0 +1,356 @@
+.App {
+  text-align: center;
+}
+
+.mainArea {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url("../public/hiking.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 700px;
+  margin: 0px;
+  padding: 30px;
+  background-color: rgb(160, 160, 185);
+}
+
+.mainAreaLanding {
+  position: relative;
+  background-image: url("../public/home 1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 45vh;
+  margin: 0px;
+  background-color: rgb(160, 160, 185);
+}
+
+
+.whiteBox {
+  display: flex;
+  position: relative;
+  justify-content: space-around ;
+  align-self: center;
+  background-color:rgb(164, 181, 167);
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius:  5px;
+  overflow: hidden;
+  width: 57vw;
+  height: 500px;
+}
+
+.about {
+  background-color: rgb(84, 84, 84);
+  align-self: center;
+  width: 30vw;
+  max-height: 100%;
+  font-size: 13px;
+  height: 80%;
+  opacity: 0.8;
+  color: white;
+  border-radius: 10px;
+  border: rgb(116, 114, 114) 2px solid;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;}
+  
+  
+.search-hike {
+  width: 600px;
+  height: 205px;
+  align-self: center;
+  position: relative;
+  border-radius: 10px;
+  background-image: url("./");
+  background-repeat:no-repeat;
+  background-color: white;
+  border: rgb(116, 114, 114) 2px solid;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  
+}
+  
+
+.landingCenter {
+  height: 100px;
+  width: 32vw;
+  opacity: 0.5;
+  background-image: url("./");
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border-top:rgb(157, 168, 178) 2px solid;
+  border-right:rgb(157, 168, 178) 2px solid;
+  border-left:rgb(157, 168, 178) 2px solid;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  padding-top: 20px;
+  left: 34vw;
+}
+
+
+
+.landingFlex {
+  position: relative;
+  display: flex;
+  /* align-items: center; */
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: none;
+  
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  top: 150px;
+}
+
+.flexItem {
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  width: 400px;
+  height: auto;
+  opacity: .85;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 25px;
+  color: rgb(69, 71, 74);
+  font-weight: bold;
+  font-size:15px;
+  border: 2px rgb(159, 159, 159) solid;
+}
+
+
+.listItem {
+  background-color: white;
+  border-radius: 15px;
+  height: 200px;
+  width: 100%;
+  margin: 5px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #98aa9c;
+  font-size: 25px;
+  color: #f5f7f8;
+  margin: 0 -.25rem;
+  margin-right: 15px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 15px;
+  transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+a:hover {
+  box-shadow: inset 200px 0 0 0 #0e5728;
+  color: white;
+}
+
+.topNavbar {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  width: 100vw;
+  height: 55px;
+  padding-top: px;
+  background-color: rgb(151, 173, 150);
+  border-bottom: rgb(215, 215, 215) 5px solid;
+}
+
+.topContainer {
+  height: 70vh;
+  width: 100vw;
+  background-image: url("../public/camping.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  align-items: center;
+  padding-top: 80px;
+}
+
+
+.fdaImg {
+  display: inline-block;
+  background-image: url("./");
+  
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  border-radius: 5px;
+  height: 270px;
+  width: 400px;
+}
+
+
+.search-box-hike {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  text-align: left;
+  height: 200px;
+  width: 30vw;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding: 25px;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.search-box-camp {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  text-align: left;
+  height: 200px;
+  width: 30vw;
+  margin-top: 15%;
+  margin-left: 50%;
+  margin-bottom: 10px;
+  padding: 25px;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+select {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.searchBtn {
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+
+.mainAreaList {
+  position: relative;
+  background-image: url("./");
+  background-repeat: repeat;
+  background-size: 100%;
+  height: 100%;
+  margin: 0px;
+  background-color: rgb(160, 160, 185);
+}
+
+.eachState {
+  background-color: rgb(186, 194, 186);
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70vw;
+  text-align: left;
+  padding: 50px 15px 50px 25px;
+  border-radius: 15px;
+  border: rgb(74, 76, 74) 3px solid;
+  font-size: 20px;
+}
+
+
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color:rgb(151, 173, 150);
+  width: 100vw;
+  height: 30px;
+  padding-top: 15px;
+  
+}
+
+.camping {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 800px;
+  margin-left: 160px;
+  margin-right: 60px;
+}
+
+.hiking {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100%;
+  margin-left: 260px;
+  margin-right: 60px;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30vw;
+  height: 100%;
+  padding: 0;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 700px;
+  font-size: smaller;
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 32px;
+  border-radius: 6px;
+  box-shadow: 10px 5px 5px #333;
+}
+
+.filter-form{
+  width: 150px;
+}
+
+.edit-button{
+  width: 100px;
+  height: 30px;
+  margin-left: 90px;
+}
+
+.delete-button{
+  width: 100px;
+  height: 30px;
+  margin-left: 90px;
+}
+.state{
+  height: 23px;
+  font-weight: 1;
+}
+
+.user-form{
+  height: 19px;
+  margin-top: 22px;
+  margin-bottom: 45px;  
+}
+
