@@ -10,6 +10,14 @@ function LandingPage() {
                     <h1>Wildland Research Group</h1>
                 </div>
             </div>
+            <div className="search-div">
+            <img src="./Vector-trail.png" alt="logo" style={{width: 50, height: 50, padding: 5}}/>
+
+                <button className="search-trail">Search Trails Now</button>
+
+                <img src="./Vector-camp.png" alt="logo" style={{width: 50, height: 50, padding: 5}}/>
+                <button className="search-camp">Search Campsites Now</button>
+            </div>
                 {/*
                 <div className="landingFlex">
                     <div className="flexItem">

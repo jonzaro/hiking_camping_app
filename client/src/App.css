@@ -20,12 +20,38 @@
   background-image: url("../public/home 1.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 45vh;
+  height: 70vh;
   margin: 0px;
   background-color: rgb(160, 160, 185);
 }
 
+.search-div {
+  background-color: rgb(47, 69, 45);
+  height:100px;
+  border: black 2px solid;
+}
 
+.search-trail {
+  background-color: #D47202;
+  color: white;
+  font-size: 30px;
+  border-radius: 18px;
+  width: 600px;
+  height: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search-camp {
+  background-color: #D47202;
+  color: white;
+  font-size: 30px;
+  border-radius: 18px;
+  width: 600px;
+  height: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .whiteBox {
   display: flex;
   position: relative;
@@ -140,9 +166,9 @@
 }
 
 a {
-  box-shadow: inset 0 0 0 0 #98aa9c;
+  box-shadow: inset 0 0 0 0 #000000;
   font-size: 25px;
-  color: #f5f7f8;
+  color: #000000;
   margin: 0 -.25rem;
   margin-right: 15px;
   font-family: 'Raleway', sans-serif;
@@ -164,8 +190,8 @@ a:active { text-decoration: none; }
 
 
 a:hover {
-  box-shadow: inset 200px 0 0 0 #0e5728;
-  color: white;
+  box-shadow: inset 200px 0 0 0 #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 .topNavbar {
@@ -175,7 +201,7 @@ a:hover {
   width: 100vw;
   height: 55px;
   padding-top: px;
-  background-color: rgb(151, 173, 150);
+  background-image: linear-gradient(white, #ffd29e);
   border-bottom: rgb(215, 215, 215) 5px solid;
 }
 
@@ -277,9 +303,10 @@ select {
 .footer {
   display: flex;
   justify-content: center;
-  background-color:rgb(151, 173, 150);
+  background-color:rgb(47, 69, 45);
+  color: white;
   width: 100vw;
-  height: 30px;
+  height: 500px;
   padding-top: 15px;
   
 }

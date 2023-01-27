@@ -105,8 +105,9 @@ useEffect(() => {
         {/* <Header /> */}
 
         <nav className="topNavbar">
-
-          <Link to="/" style={{padding: 5}}>Home</Link>
+          <img src="./Vector.png" alt="logo" style={{width: 50, height: 50, padding: 5}}/>
+          Wildland Research Group
+          <Link to="/" style={{padding: 5}}>About Us</Link>
           <Link to="/hiking" style={{padding: 5}}>Hiking</Link>
           <Link to="/camping" style={{padding: 5}}>Camping</Link>
 
