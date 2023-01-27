@@ -1,13 +1,24 @@
 import React from "react"
+import HikeCard from "./HikeCard"
 
-function LandingPage() {
+function LandingPage({props}) {
 
 
+
+    const hikeCards = props.hikes?.length ? props.hikes.map(hike => {
+        return(
+            <>
+                <HikeCard props={{...hike}}/>
+            </>
+        )
+    }) 
+    :
+    []
     return (
         <>
             <div className="mainAreaLanding">
                 <div className="landingCenter">
-                    <h1>Wildland Research Group</h1>
+                    {/* <p className="explore">Explore</p> */}
                 </div>
             </div>
             <div className="search-div">
@@ -17,6 +28,22 @@ function LandingPage() {
 
                 <img src="./Vector-camp.png" alt="logo" style={{width: 50, height: 50, padding: 5}}/>
                 <button className="search-camp">Search Campsites Now</button>
+            </div>
+            <div className="featured-box">
+                    {console.log(props)}
+                <div className="card-box">
+                        {hikeCards[0]}
+                    <div className="featured-card">
+                    I don't want the edit/delete buttons when the hike card renders here. 
+                    conditional render button?
+                    </div>
+                    <div className="featured-card">
+                    </div>
+                    <div className="featured-card">
+                    </div>
+                    <div className="featured-card">
+                    </div>
+                </div>
             </div>
                 {/*
                 <div className="landingFlex">

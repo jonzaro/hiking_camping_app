@@ -8,7 +8,8 @@ import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import axios from "axios";
 import AddHikeForm from "./components/AddHikeForm";
 import AddCampForm from "./components/AddCampForm";
-
+import "/Users/jonzaro/Desktop/dev/projects/level5-capstone/client/src/fonts/BAHNSCHRIFT 1.TTF"
+import "/Users/jonzaro/Desktop/dev/projects/level5-capstone/client/src/fonts/sans-luis.ttf"
 
 function App() {
   const [hikes, setHikes] = useState([])
@@ -106,7 +107,7 @@ useEffect(() => {
 
         <nav className="topNavbar">
           <img src="./Vector.png" alt="logo" style={{width: 50, height: 50, padding: 5}}/>
-          Wildland Research Group
+          <p>Wildland Research Group</p>
           <Link to="/" style={{padding: 5}}>About Us</Link>
           <Link to="/hiking" style={{padding: 5}}>Hiking</Link>
           <Link to="/camping" style={{padding: 5}}>Camping</Link>
@@ -116,7 +117,7 @@ useEffect(() => {
 
         <Routes>
 
-          <Route path="/" element={<LandingPage />}  />
+          <Route path="/" element={<LandingPage props={{hikes, camps}}/>}  />
           <Route path="/hiking" element={
           <>
             
