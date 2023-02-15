@@ -8,8 +8,8 @@ import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import axios from "axios";
 import AddHikeForm from "./components/AddHikeForm";
 import AddCampForm from "./components/AddCampForm";
-import "/Users/jonzaro/Desktop/dev/projects/level5-capstone/client/src/fonts/BAHNSCHRIFT 1.TTF"
-import "/Users/jonzaro/Desktop/dev/projects/level5-capstone/client/src/fonts/sans-luis.ttf"
+// import "/Users/jonzaro/Desktop/dev/projects/level5-capstone/client/src/fonts/BAHNSCHRIFT 1.TTF"
+// import "/Users/jonzaro/Desktop/dev/projects/level5-capstone/client/src/fonts/sans-luis.ttf"
 
 function App() {
   const [hikes, setHikes] = useState([])
