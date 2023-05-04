@@ -11,6 +11,7 @@ This is a hiking and camping app/site built using React, designed to help hikers
 ![figmaSC](https://user-images.githubusercontent.com/66086245/236295387-d45b351a-4b28-46ce-a82f-e26b98c3c4c2.jpeg)
 
 Figma Design Mockup by Jessica Buff
+https://www.jessicabuff.net/
 
 <a href="https://www.figma.com/file/KX6ajHdx8BgmJp03nVzfuF/Wildlife-Research-Group?type=design&node-id=23-2390&t=dCIfba69szHTgNVP-0">Figma Link</a>
 
