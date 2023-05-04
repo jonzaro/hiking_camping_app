@@ -26,7 +26,7 @@ View trail details
 To get started with the app/site, clone the repository and install the dependencies using npm:<br>
 
 ```bash
-git clone https://github.com/your-username/hiking-and-camping-app.git
+git clone https://github.com/jonzaro/level5-cap.git
 cd /level5-cap
 npm install
 ```
