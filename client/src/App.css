@@ -32,7 +32,7 @@
   background-image: url("../public/home 1.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 60vh;
+  height: 33vh;
   margin: 0px;
   background-color: rgb(160, 160, 185);
 }
@@ -47,7 +47,7 @@
 }
 
 .search-trail {
-  background-color: #D47202;
+  background-color: #4F86C7;
   color: white;
   font-size: 30px;
   border-radius: 18px;
@@ -58,7 +58,7 @@
 }
 
 .search-camp {
-  background-color: #D47202;
+  background-color: #4F86C7;
   color: white;
   font-size: 30px;
   border-radius: 18px;
@@ -129,7 +129,7 @@
   background-color: transparent;
   background-repeat: no-repeat;
   position: relative;
-  top: 39vh;
+  top:  60%;
   padding-top: 20px;
   left: 44%;
 }
@@ -206,9 +206,9 @@ a:active { text-decoration: none; }
 
 
 a:hover {
-  box-shadow: inset 200px 0 0 0 #ffffff;
+  box-shadow: inset 200px 0 0 0 #a8cdef;
 
-  color: rgb(0, 0, 0);
+  color: rgb(0, 45, 77);
 }
 
 .topNavbar {
@@ -220,7 +220,7 @@ a:hover {
   height: 55px;
   padding-top: 20px;
   padding-bottom: 10px;
-  background-image: linear-gradient(white, #ffd29e);
+  background-image: linear-gradient(white, #4F86C7);
   border-bottom: rgb(215, 215, 215) 5px solid;
 }
 
@@ -358,6 +358,7 @@ select {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+  margin-bottom:100px;
   width: 30vw;
   height: 100%;
   padding: 0;
@@ -384,7 +385,7 @@ select {
   width: 100vw;
   padding-top: 180px;
   font-size: smaller;
-  background-image: linear-gradient(white, #fcd9b1);
+  background-image: linear-gradient(white, #4F86C7);
 }
 
 .card-box {
@@ -430,7 +431,7 @@ select {
 
 .user-form{
   height: 19px;
-  margin-top: 22px;
+  margin-top: 170px;
   margin-bottom: 45px;  
 }
 

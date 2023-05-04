@@ -122,6 +122,7 @@ useEffect(() => {
           <>
             
           <Hiking props={{deleteHike, editHike, handleHikeFilter, getHike, hikes}}/>
+          <br></br> <br></br><br></br><br></br><br></br>
           <AddHikeForm
           submit={addHike}
           //submitEdit={editHike}
@@ -131,6 +132,7 @@ useEffect(() => {
           <Route path="/camping" element={
           <>
           <Camping props={{deleteCamp, editCamp, handleCampFilter, getCamp, camps}}/>
+          <br></br> <br></br><br></br><br></br><br></br>
           <AddCampForm 
             submit={addCamp}
             btnText="Add Camp"/>
