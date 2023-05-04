@@ -2,10 +2,20 @@
 
 This is the newest version of the group project for level5 of V School.
 
-![landing-page](https://user-images.githubusercontent.com/66086245/235968538-62c2c978-e624-4e41-8837-00700111c64a.jpeg)
-
+![appSC](https://user-images.githubusercontent.com/66086245/236295259-5df54167-2b06-457b-9ea8-07e732f1bd6c.jpeg)
 This is a hiking and camping app/site built using React, designed to help hikers and campers plan their trips and share their experiences. The app/site includes features like trail maps, campsite reservations, and user reviews.
+
 <hr>
+
+
+![figmaSC](https://user-images.githubusercontent.com/66086245/236295387-d45b351a-4b28-46ce-a82f-e26b98c3c4c2.jpeg)
+
+Figma Design Mockup by Jessica Buff
+
+<a href="https://www.figma.com/file/KX6ajHdx8BgmJp03nVzfuF/Wildlife-Research-Group?type=design&node-id=23-2390&t=dCIfba69szHTgNVP-0">Figma Link</a>
+
+
+
 <b>Features**</b><br>
 Browse hiking and camping destinations
 View trail details
